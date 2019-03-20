@@ -1,0 +1,12 @@
+C:\Users\krizz\Desktop\Technical Tests\GRG\Part 4\Zoo\Zoo.Logic\bin\Debug\netcoreapp2.1\Zoo.Logic.deps.json
+C:\Users\krizz\Desktop\Technical Tests\GRG\Part 4\Zoo\Zoo.Logic\bin\Debug\netcoreapp2.1\Zoo.Logic.dll
+C:\Users\krizz\Desktop\Technical Tests\GRG\Part 4\Zoo\Zoo.Logic\bin\Debug\netcoreapp2.1\Zoo.Logic.pdb
+C:\Users\krizz\Desktop\Technical Tests\GRG\Part 4\Zoo\Zoo.Logic\bin\Debug\netcoreapp2.1\Zoo.Domain.dll
+C:\Users\krizz\Desktop\Technical Tests\GRG\Part 4\Zoo\Zoo.Logic\bin\Debug\netcoreapp2.1\Zoo.Domain.pdb
+C:\Users\krizz\Desktop\Technical Tests\GRG\Part 4\Zoo\Zoo.Logic\obj\Debug\netcoreapp2.1\Zoo.Logic.csprojAssemblyReference.cache
+C:\Users\krizz\Desktop\Technical Tests\GRG\Part 4\Zoo\Zoo.Logic\obj\Debug\netcoreapp2.1\Zoo.Logic.csproj.CoreCompileInputs.cache
+C:\Users\krizz\Desktop\Technical Tests\GRG\Part 4\Zoo\Zoo.Logic\obj\Debug\netcoreapp2.1\Zoo.Logic.AssemblyInfoInputs.cache
+C:\Users\krizz\Desktop\Technical Tests\GRG\Part 4\Zoo\Zoo.Logic\obj\Debug\netcoreapp2.1\Zoo.Logic.AssemblyInfo.cs
+C:\Users\krizz\Desktop\Technical Tests\GRG\Part 4\Zoo\Zoo.Logic\obj\Debug\netcoreapp2.1\Zoo.Logic.csproj.CopyComplete
+C:\Users\krizz\Desktop\Technical Tests\GRG\Part 4\Zoo\Zoo.Logic\obj\Debug\netcoreapp2.1\Zoo.Logic.dll
+C:\Users\krizz\Desktop\Technical Tests\GRG\Part 4\Zoo\Zoo.Logic\obj\Debug\netcoreapp2.1\Zoo.Logic.pdb

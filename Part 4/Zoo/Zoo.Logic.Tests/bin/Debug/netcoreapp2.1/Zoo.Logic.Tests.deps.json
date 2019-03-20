@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "e94bb1da76e25a0700aa6d6f9c458ce620b9afc3"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "Zoo.Logic.Tests/1.0.0": {
+        "dependencies": {
+          "NUnit": "3.11.0",
+          "NUnit.ConsoleRunner": "3.9.0"
+        },
+        "runtime": {
+          "Zoo.Logic.Tests.dll": {}
+        }
+      },
+      "NUnit/3.11.0": {
+        "runtime": {
+          "lib/netstandard2.0/nunit.framework.dll": {
+            "assemblyVersion": "3.11.0.0",
+            "fileVersion": "3.11.0.0"
+          }
+        }
+      },
+      "NUnit.ConsoleRunner/3.9.0": {}
+    }
+  },
+  "libraries": {
+    "Zoo.Logic.Tests/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NUnit/3.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zecrYxUA5p5w8AZ2bvbBbiUIcrQnZAVPrziNMSWMdcOi0D2Oe7yKUNivWPIQMcUwQDHmWtS/ijnD48ubU/eHZQ==",
+      "path": "nunit/3.11.0",
+      "hashPath": "nunit.3.11.0.nupkg.sha512"
+    },
+    "NUnit.ConsoleRunner/3.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WFrAd1gEpe6v7KZxlV0vhP6r1DJ4ttFrBXXkw0QGJ7OKiLI9vcqNTHQC67cs6W3FBBM84rNUJ5q2+GiL+my1tQ==",
+      "path": "nunit.consolerunner/3.9.0",
+      "hashPath": "nunit.consolerunner.3.9.0.nupkg.sha512"
+    }
+  }
+}
