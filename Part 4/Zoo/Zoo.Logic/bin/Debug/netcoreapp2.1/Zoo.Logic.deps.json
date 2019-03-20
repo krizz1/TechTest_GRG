@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "Zoo.Logic/1.0.0": {
+        "dependencies": {
+          "Zoo.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Zoo.Logic.dll": {}
+        }
+      },
+      "Zoo.Domain/1.0.0": {
+        "runtime": {
+          "Zoo.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Zoo.Logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Zoo.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
