@@ -530,7 +530,7 @@
       ]
     },
     "Microsoft.NETCore.Platforms/2.1.0": {
-      "sha512": "aSTPL94NloSiQVL5Len8wbjFKOnoAX/vOh3s3DF6g3c7GUUMLCDvnBhmA72M2iN2AedyA8hpr7m89kzSAKUnJQ==",
+      "sha512": "GmkKfoyerqmsHMn7OZj0AKpcBabD+GaafqphvX2Mw406IwiJRy1pKcKqdCfKJfYmkRyJ6+e+RaUylgdJoDa1jQ==",
       "type": "package",
       "path": "microsoft.netcore.platforms/2.1.0",
       "files": [
@@ -704,23 +704,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\krizz\\.nuget\\packages\\": {},
+    "C:\\Users\\Chris\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\krizz\\Desktop\\Technical Tests\\GRG\\Part 4\\Zoo\\Zoo.Logic\\Zoo.Logic.csproj",
+      "projectUniqueName": "C:\\Users\\Chris\\Documents\\Work\\Technical Tests\\GRG\\TechTest_GRG\\Part 4\\Zoo\\Zoo.Logic\\Zoo.Logic.csproj",
       "projectName": "Zoo.Logic",
-      "projectPath": "C:\\Users\\krizz\\Desktop\\Technical Tests\\GRG\\Part 4\\Zoo\\Zoo.Logic\\Zoo.Logic.csproj",
-      "packagesPath": "C:\\Users\\krizz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\krizz\\Desktop\\Technical Tests\\GRG\\Part 4\\Zoo\\Zoo.Logic\\obj\\",
+      "projectPath": "C:\\Users\\Chris\\Documents\\Work\\Technical Tests\\GRG\\TechTest_GRG\\Part 4\\Zoo\\Zoo.Logic\\Zoo.Logic.csproj",
+      "packagesPath": "C:\\Users\\Chris\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Chris\\Documents\\Work\\Technical Tests\\GRG\\TechTest_GRG\\Part 4\\Zoo\\Zoo.Logic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\krizz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -733,8 +733,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\krizz\\Desktop\\Technical Tests\\GRG\\Part 4\\Zoo\\Zoo.Domain\\Zoo.Domain.csproj": {
-              "projectPath": "C:\\Users\\krizz\\Desktop\\Technical Tests\\GRG\\Part 4\\Zoo\\Zoo.Domain\\Zoo.Domain.csproj"
+            "C:\\Users\\Chris\\Documents\\Work\\Technical Tests\\GRG\\TechTest_GRG\\Part 4\\Zoo\\Zoo.Domain\\Zoo.Domain.csproj": {
+              "projectPath": "C:\\Users\\Chris\\Documents\\Work\\Technical Tests\\GRG\\TechTest_GRG\\Part 4\\Zoo\\Zoo.Domain\\Zoo.Domain.csproj"
             }
           }
         }

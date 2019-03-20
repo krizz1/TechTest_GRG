@@ -21,10 +21,10 @@ namespace Zoo.Logic.Tests
             londonZoo.AddAnimal(new Animal() { Name = "Dolphin", MovesBy = new List<MovementType>() { MovementType.Swim } });
             londonZoo.AddAnimal(new Animal() { Name = "Bat", MovesBy = new List<MovementType>() { MovementType.Fly, MovementType.Walk } });
             londonZoo.AddAnimal(new Animal() { Name = "Penguin", MovesBy = new List<MovementType>() { MovementType.Walk, MovementType.Swim } });
-            londonZoo.AddAnimal(new Animal() { Name = "Monkey", MovesBy = new List<MovementType>() { MovementType.Walk } });
+            londonZoo.AddAnimal(new Duck());
         }
         
-        [Test]
+        [Test,TestCaseSource(typeof(MovementTestData),nameof(MovementTestData.TestCases))]
         public void MoveAnimals(MovementType movementType, int byX, int byZ, int byY)
         {
             foreach (IAnimal animal in londonZoo.Animals)
@@ -41,26 +41,45 @@ namespace Zoo.Logic.Tests
                         animal.Fly(byX, byY, byZ);
                         break;
                 }
-
-                
             }
 
-            if (movementType == MovementType.Walk)
-            {
-                Assert.IsFalse(londonZoo.Animals.Any(x => x.MovesBy.Contains(MovementType.Walk) && x.Position.Y > 0));
-            }
-            else if (movementType == MovementType.Swim)
-            {
-                Assert.IsFalse(londonZoo.Animals.Any(x => x.MovesBy.Contains(MovementType.Walk) && x.Position.Y > 0));
-            }
-            else if(movementType == MovementType.Fly)
-            {
+            Assert.IsTrue(Checks_Walk() && Checks_Swim() && Checks_Fly());
+        }
 
-            }
+        /// <summary>
+        /// Check if any animals position hasn't changed as expected for walkers
+        /// </summary>
+        /// <returns>True if the test passes</returns>
+        private bool Checks_Walk()
+        {
+            //Check animals that can only walk
+            return !londonZoo.Animals.Any(x => x.MovesBy.Contains(MovementType.Walk) &&
+                (x.MovesBy.Count == 1 && x.Position.Y != 0) &&
+                (x.Position.X == 0 || x.Position.Z == 0));
+        }
 
-            
-            Assert.IsTrue(londonZoo.Animals.Any(x => x.MovesBy.Contains(MovementType.Swim) && x.Position.Y < 0));
-            Assert.IsTrue(londonZoo.Animals.Any(x => x.MovesBy.Contains(MovementType.Walk) && x.Position.Y > 0));
+        /// <summary>
+        /// Check if any animals position hasn't changed as expected for swimmers
+        /// </summary>
+        /// <returns>True</returns>
+        private bool Checks_Swim()
+        {
+            //Check animals that can only walk
+            return !londonZoo.Animals.Any(x => x.MovesBy.Contains(MovementType.Swim) &&
+                (x.MovesBy.Count == 1 && x.Position.Y <= 0) &&
+                (x.Position.X == 0 || x.Position.Z == 0));
+        }
+
+        /// <summary>
+        /// Check if any animals position hasn't changed as expected for swimmers
+        /// </summary>
+        /// <returns>True</returns>
+        private bool Checks_Fly()
+        {
+            //Check animals that can only walk
+            return !londonZoo.Animals.Any(x => x.MovesBy.Contains(MovementType.Fly) &&
+                (x.MovesBy.Count == 1 && x.Position.Y >= 0) &&
+                (x.Position.X == 0 || x.Position.Z == 0));
         }
 
         public class MovementTestData
